@@ -1,0 +1,5 @@
+a = float(input('a: '))
+b = float(input('b: '))
+c = float(input('c: '))
+sqr_val = pow((b*b - 4*a*c), 0.5)
+print('x1 = ', (-b + sqr_val )/ (2 * a), '\n', 'x2 = ',(-b - sqr_val )/ (2 * a))
